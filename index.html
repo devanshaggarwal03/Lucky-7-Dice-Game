@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">
+            LUCKY 7
+        </h1>
+        <div class="dice">
+            <p>
+                Dice 1
+            </p>
+            <img src="dice1.png" alt="Dice1" id="check1">
+        </div>
+        <div class="dice">
+            <p>
+                Dice 2
+            </p>
+            <img src="dice4.png" alt="Dice2" id="check2">
+        </div>
+        <div id="radiobutton">
+            <input type="radio" id="r1" name = "option" value="Less than 7"> Less than 7<br>
+            <input type="radio" id="r2" name = "option" value="Equal to 7"> Equal to 7<br>
+            <input type="radio" id="r3" name = "option" value="More than 7"> More than 7<br><br>
+        </div>
+        <button onclick="rollDice()">ROLL</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
